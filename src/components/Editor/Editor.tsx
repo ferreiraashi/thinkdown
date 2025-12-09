@@ -225,6 +225,7 @@ export default function Editor({ id }: EditorProps) {
                   value={content}
                   onChange={(e) => setContent(e.target.value)}
                   onKeyDown={handleKeyDown}
+                  spellCheck={false}
                   className="w-full h-full p-8 resize-none focus:outline-none font-mono text-base text-gray-800 dark:text-gray-200 bg-transparent"
                   placeholder="Comece a escrever seu markdown..."
                 />
