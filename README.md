@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Markdown Editor - Desafio ADA
 
-## Getting Started
+Este projeto é um editor de documentos Markdown desenvolvido como parte do processo seletivo para o Projeto ADA.
 
-First, run the development server:
+## 🚀 Como rodar o projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.  **Execute o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3.  **Acesse a aplicação:**
+    Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Funcionalidades Implementadas
 
-## Learn More
+### Obrigatórias
+*   **CRUD de Documentos:** Criação, Listagem, Edição, Renomeação e Exclusão de documentos.
+*   **Armazenamento Local:** Persistência de dados utilizando `localStorage`.
+*   **Editor com Preview:** Edição em tempo real com visualização lado a lado (split view).
+*   **Toolbar de Estilização:** Botões para Negrito, Itálico, Títulos, Listas e Código Inline.
+*   **Roteamento:** Navegação entre a lista de documentos e a tela de edição via URL (`/doc/:id`).
+*   **Context API:** Gerenciamento global do estado dos documentos.
 
-To learn more about Next.js, take a look at the following resources:
+### Extras / Diferenciais
+*   **Autosave:** Salvamento automático do conteúdo com *debounce* para evitar escritas excessivas.
+*   **Renomeação na Listagem:** Possibilidade de renomear documentos diretamente na tela inicial.
+*   **Atalhos de Teclado:** Suporte para `Ctrl+B` (Negrito) e `Ctrl+I` (Itálico).
+*   **Layout Responsivo:** Adaptação para dispositivos móveis com alternância entre Editor/Preview.
+*   **Styling Moderno:** Interface limpa construída com Tailwind CSS.
+*   **Ícones:** Utilização da biblioteca `lucide-react` para uma UI consistente.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧐 O que gostaria que fosse avaliado
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+*   **Organização do Código:** Estrutura de pastas, separação de componentes e responsabilidades.
+*   **Uso de Hooks:** `useEffect`, `useCallback`, `useRef` e Custom Hooks (`useDocuments`).
+*   **UX/UI:** Feedback visual, facilidade de uso e design limpo.
+*   **Qualidade do Código:** Tipagem TypeScript, tratamento de erros básicos e código limpo.
 
-## Deploy on Vercel
+## 🛠️ Tecnologias Utilizadas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*   **Next.js** (App Router)
+*   **React**
+*   **TypeScript**
+*   **Tailwind CSS** (v4) + Typography Plugin
+*   **react-markdown**
+*   **lucide-react** (Ícones)
+*   **uuid** (Geração de IDs)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Desenvolvido por Ferreiraashi
