@@ -1,11 +1,11 @@
 <div align="center">
 
-  <img src="capa-thinkdown.png" alt="Capa ThinkDown" width="100%" />
+  <img src="public/capa-thinkdown.png" alt="Capa ThinkDown" width="100%" />
 
   <br />
   <br />
 
-  <img src="logo-thinkdown.png" alt="Logo ThinkDown" width="100" />
+  <img src="public/logo-thinkdown.png" alt="Logo ThinkDown" width="100" />
 
   <h1 align="center">ThinkDown</h1>
 
@@ -34,7 +34,7 @@
 <br />
 
 <div align="center">
-  <img src="screenshot.png" alt="Screenshot da Aplicação ThinkDown" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);" />
+  <img src="public/screenshot.png" alt="Screenshot da Aplicação ThinkDown" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);" />
 </div>
 
 <br />
