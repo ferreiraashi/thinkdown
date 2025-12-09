@@ -75,6 +75,18 @@ Este projeto utiliza uma stack moderna e robusta:
 * **[React Markdown](https://github.com/remarkjs/react-markdown)** - Renderização segura de MD.
 * **[Zod](https://zod.dev/)** - (Opcional) Validação de esquemas.
 
+## 🔍 Para Avaliação (ADA)
+
+Esta seção destaca pontos específicos da implementação para os avaliadores:
+
+1.  **Context API:** Utilizada para evitar *prop drilling* no gerenciamento de documentos e tema.
+2.  **Custom Hooks:** A lógica de manipulação de documentos foi abstraída para manter os componentes limpos.
+3.  **UX/UI:** Imporntancia com O UX do usuário, e desiigne simples.
+4.  **Clean Code:** Nomes de variáveis descritivos, funções pequenas e separação de responsabilidades.
+
+---
+
+
 ## 📦 Como Rodar
 
 Para clonar e executar este aplicativo, você precisará do [Git](https://git-scm.com) e do [Node.js](https://nodejs.org/en/download/) instalados.
@@ -91,3 +103,8 @@ $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
+```
+
+<div align="center">
+  Feito com 💙 por <strong>Washington Ferreira</strong> para o desafio ADA.
+</div>
