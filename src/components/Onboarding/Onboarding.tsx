@@ -25,7 +25,7 @@ export default function Onboarding() {
 
       <div className={`${patrickHand.className} text-2xl text-gray-800 dark:text-gray-200`}>
         
-        {/* 1. Seta do Título do Cabeçalho - Movida para o lado */}
+
         <div className="absolute top-5 left-80 md:left-104 animate-bounce-slow">
           <div className="relative flex items-center gap-2">
              <svg width="60" height="40" viewBox="0 0 60 40" className="rotate-12" style={{ overflow: 'visible' }}>
@@ -37,7 +37,7 @@ export default function Onboarding() {
           </div>
         </div>
 
-        {/* Apontando para o painel do editor do lado esquerdo */}
+
         <div className="hidden md:block absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 animate-bounce-slow" style={{ animationDelay: '0.2s' }}>
           <div className="relative">
             <svg width="100" height="60" viewBox="0 0 100 60" className="absolute -bottom-2 right-12" style={{ overflow: 'visible' }}>
@@ -49,7 +49,7 @@ export default function Onboarding() {
           </div>
         </div>
 
-        {/* Apontando para o painel de pré-visualização do lado direito */}
+
         <div className="hidden md:block absolute top-1/2 left-[65%] transform -translate-y-1/2 animate-bounce-slow" style={{ animationDelay: '0.4s' }}>
           <div className="relative">
              <svg width="100" height="60" viewBox="0 0 100 60" className="absolute -bottom-2 left-0" style={{ overflow: 'visible' }}>
@@ -61,7 +61,7 @@ export default function Onboarding() {
           </div>
         </div>
 
-        {/* 4. Seta da Barra de Ferramentas */}
+
         <div className="absolute bottom-32 left-1/2 transform -translate-x-1/2 animate-bounce-slow" style={{ animationDelay: '0.6s' }}>
           <div className="relative flex flex-col items-center">
             <p className="mb-4 text-center w-64 leading-tight font-bold">
@@ -74,7 +74,7 @@ export default function Onboarding() {
           </div>
         </div>
         
-        {/* 5. Seta dos Atalhos de Teclado */}
+
         <div className="hidden md:block absolute top-24 right-20 animate-bounce-slow" style={{ animationDelay: '0.8s' }}>
            <div className="relative">
             <svg width="60" height="60" viewBox="0 0 60 60" className="absolute -top-10 right-4" style={{ overflow: 'visible' }}>
