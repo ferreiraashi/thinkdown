@@ -1,56 +1,93 @@
-# Markdown Editor - Desafio ADA
+<div align="center">
 
-Este projeto é um editor de documentos Markdown desenvolvido como parte do processo seletivo para o Projeto ADA.
+  <img src="capa-thinkdown.png" alt="Capa ThinkDown" width="100%" />
 
-## 🚀 Como rodar o projeto
+  <br />
+  <br />
 
-1.  **Instale as dependências:**
-    ```bash
-    npm install
-    ```
+  <img src="logo-thinkdown.png" alt="Logo ThinkDown" width="100" />
 
-2.  **Execute o servidor de desenvolvimento:**
-    ```bash
-    npm run dev
-    ```
+  <h1 align="center">ThinkDown</h1>
 
-3.  **Acesse a aplicação:**
-    Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
+  <p align="center">
+    <strong>Um editor de Markdown simples, elegante e funcional.</strong>
+    <br />
+    Desenvolvido como parte do Desafio Técnico para o Projeto ADA.
+  </p>
 
-## ✨ Funcionalidades Implementadas
+  <p align="center">
+    <a href="#-funcionalidades">Funcionalidades</a> •
+    <a href="#-tecnologias">Tecnologias</a> •
+    <a href="#-como-rodar">Como Rodar</a> •
+    <a href="#-estrutura">Estrutura</a> •
+    <a href="#-avaliação">Para Avaliação</a>
+  </p>
 
-### Obrigatórias
-*   **CRUD de Documentos:** Criação, Listagem, Edição, Renomeação e Exclusão de documentos.
-*   **Armazenamento Local:** Persistência de dados utilizando `localStorage`.
-*   **Editor com Preview:** Edição em tempo real com visualização lado a lado (split view).
-*   **Toolbar de Estilização:** Botões para Negrito, Itálico, Títulos, Listas e Código Inline.
-*   **Roteamento:** Navegação entre a lista de documentos e a tela de edição via URL (`/doc/:id`).
-*   **Context API:** Gerenciamento global do estado dos documentos.
+  <p align="center">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-red.svg?style=flat-square">
+    <img alt="React" src="https://img.shields.io/badge/React-19-blue?logo=react&style=flat-square">
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&style=flat-square">
+    <img alt="Tailwind" src="https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?logo=tailwind-css&style=flat-square">
+  </p>
+</div>
 
-### Extras / Diferenciais
-*   **Autosave:** Salvamento automático do conteúdo com *debounce* para evitar escritas excessivas.
-*   **Renomeação na Listagem:** Possibilidade de renomear documentos diretamente na tela inicial.
-*   **Atalhos de Teclado:** Suporte para `Ctrl+B` (Negrito) e `Ctrl+I` (Itálico).
-*   **Layout Responsivo:** Adaptação para dispositivos móveis com alternância entre Editor/Preview.
-*   **Styling Moderno:** Interface limpa construída com Tailwind CSS.
-*   **Ícones:** Utilização da biblioteca `lucide-react` para uma UI consistente.
+<br />
 
-## 🧐 O que gostaria que fosse avaliado
+<div align="center">
+  <img src="screenshot.png" alt="Screenshot da Aplicação ThinkDown" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);" />
+</div>
 
-*   **Organização do Código:** Estrutura de pastas, separação de componentes e responsabilidades.
-*   **Uso de Hooks:** `useEffect`, `useCallback`, `useRef` e Custom Hooks (`useDocuments`).
-*   **UX/UI:** Feedback visual, facilidade de uso e design limpo.
-*   **Qualidade do Código:** Tipagem TypeScript, tratamento de erros básicos e código limpo.
+<br />
 
-## 🛠️ Tecnologias Utilizadas
+## 🎯 Sobre o Projeto
 
-*   **Next.js** (App Router)
-*   **React**
-*   **TypeScript**
-*   **Tailwind CSS** (v4) + Typography Plugin
-*   **react-markdown**
-*   **lucide-react** (Ícones)
-*   **uuid** (Geração de IDs)
+O **ThinkDown** é uma aplicação web moderna que permite criar, editar, visualizar e gerenciar documentos em Markdown diretamente no navegador. O objetivo é fornecer uma interface limpa e reativa, focada na experiência do usuário, onde a edição e o preview acontecem lado a lado.
 
----
-Desenvolvido por Ferreiraashi
+O projeto foi construído com foco em **Performance**, **Clean Code** e **UX**, utilizando as funcionalidades mais recentes do Next.js e React.
+
+## ✨ Funcionalidades
+
+O projeto atende a todos os requisitos obrigatórios e implementa diversas melhorias opcionais:
+
+### 📝 Essenciais
+- **CRUD Completo**: Criação, leitura, atualização e exclusão de documentos.
+- **Persistência Local**: Dados salvos automaticamente no `localStorage` do navegador.
+- **Split-View**: Editor à esquerda e Preview (renderizado) à direita em tempo real.
+- **Roteamento**: URLs dinâmicas para cada documento (`/doc/:id`).
+
+### 🚀 Diferenciais (Extras)
+- 💾 **Autosave**: Salvamento automático com *debounce* para performance.
+- 🌓 **Tema Dark/Light**: Alternância de temas com detecção de preferência do sistema.
+- ⌨️ **Atalhos de Teclado**: Suporte para `Ctrl+B` (Negrito), `Ctrl+I` (Itálico), etc.
+- 🎨 **Toolbar Inteligente**: Manipulação da posição do cursor e seleção de texto.
+- 📱 **Responsividade**: Layout adaptável para mobile (alternância entre Editor/Preview).
+- 👋 **Onboarding**: Animações de boas-vindas para novos documentos.
+
+## 🛠️ Tecnologias
+
+Este projeto utiliza uma stack moderna e robusta:
+
+* **[Next.js 16](https://nextjs.org/)** (App Router) - Framework React.
+* **[React 19](https://react.dev/)** - Biblioteca de UI.
+* **[TypeScript](https://www.typescriptlang.org/)** - Tipagem estática e segurança.
+* **[Tailwind CSS v4](https://tailwindcss.com/)** - Estilização utilitária.
+* **[Lucide React](https://lucide.dev/)** - Ícones consistentes e leves.
+* **[React Markdown](https://github.com/remarkjs/react-markdown)** - Renderização segura de MD.
+* **[Zod](https://zod.dev/)** - (Opcional) Validação de esquemas.
+
+## 📦 Como Rodar
+
+Para clonar e executar este aplicativo, você precisará do [Git](https://git-scm.com) e do [Node.js](https://nodejs.org/en/download/) instalados.
+
+```bash
+# Clone este repositório
+$ git clone [https://github.com/ferreiraashi/thinkdown.git](https://github.com/ferreiraashi/thinkdown.git)
+
+# Acesse a pasta do projeto
+$ cd thinkdown
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
