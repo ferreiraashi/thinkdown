@@ -16,14 +16,6 @@
   </p>
 
   <p align="center">
-    <a href="#-funcionalidades">Funcionalidades</a> •
-    <a href="#-tecnologias">Tecnologias</a> •
-    <a href="#-como-rodar">Como Rodar</a> •
-    <a href="#-estrutura">Estrutura</a> •
-    <a href="#-avaliação">Para Avaliação</a>
-  </p>
-
-  <p align="center">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-red.svg?style=flat-square">
     <img alt="React" src="https://img.shields.io/badge/React-19-blue?logo=react&style=flat-square">
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&style=flat-square">
