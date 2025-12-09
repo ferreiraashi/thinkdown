@@ -29,7 +29,6 @@ export default function Onboarding() {
         <div className="absolute top-5 left-80 md:left-104 animate-bounce-slow">
           <div className="relative flex items-center gap-2">
              <svg width="60" height="40" viewBox="0 0 60 40" className="rotate-12" style={{ overflow: 'visible' }}>
-              {/* Caminho Combinado para junção perfeita */}
               <path d="M60 20 Q 30 20 0 20 L 12 12 M 0 20 L 12 28" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <p className="w-48 leading-tight font-bold pt-2 ml-4">
